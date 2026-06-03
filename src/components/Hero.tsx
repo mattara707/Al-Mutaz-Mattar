@@ -127,7 +127,7 @@ export default function Hero({ lang }: HeroProps) {
                 <div>
                   <p className="text-[10px] text-slate-400 uppercase tracking-widest">{lang === 'en' ? 'Consultancy Hotline' : 'الرقم المباشر'}</p>
                   <a href="tel:+966559685737" className="text-sky-400 font-mono font-bold text-sm block mt-1 hover:underline">
-                    +966 55 968 5737
+                    <span dir="ltr">+966 55 968 5737</span>
                   </a>
                 </div>
                 <a href="#contact" className="bg-sky-600/20 hover:bg-sky-600/30 text-sky-400 text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors border border-sky-500/20">

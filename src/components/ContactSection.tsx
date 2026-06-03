@@ -146,7 +146,8 @@ export default function ContactSection({ lang, estimatedText }: ContactSectionPr
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white rounded-xl px-4 py-3 text-sm text-slate-950 transition-colors focus:ring-2 focus:ring-blue-500/10 outline-none font-mono"
+                      dir="ltr"
+                      className="w-full bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white rounded-xl px-4 py-3 text-sm text-slate-950 transition-colors focus:ring-2 focus:ring-blue-500/10 outline-none font-mono text-left"
                       placeholder="e.g., +966 5x xxx xxxx"
                     />
                   </div>
@@ -251,7 +252,9 @@ export default function ContactSection({ lang, estimatedText }: ContactSectionPr
                   </div>
                   <div>
                     <span className="text-[10px] text-blue-200 uppercase tracking-widest block font-bold">{lang === 'en' ? 'Direct Mobile' : 'الجوال المباشر'}</span>
-                    <span className="font-mono font-bold text-slate-100 text-sm block mt-0.5">+966 55 968 5737</span>
+                    <span className="font-mono font-bold text-slate-100 text-sm block mt-0.5">
+                      <span dir="ltr">+966 55 968 5737</span>
+                    </span>
                   </div>
                 </a>
 
