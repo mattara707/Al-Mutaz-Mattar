@@ -6,6 +6,7 @@ import AchievementsCerts from './components/AchievementsCerts';
 import ServiceCatalog from './components/ServiceCatalog';
 import ExperienceTimeline from './components/ExperienceTimeline';
 import SkillsGrid from './components/SkillsGrid';
+import CustomerFeedback from './components/CustomerFeedback';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import { Language } from './types';
@@ -59,6 +60,9 @@ export default function App() {
 
         {/* Career Timeline / Executive Record */}
         <ExperienceTimeline lang={lang} />
+
+        {/* Customer reviews and interactive endorsement forms */}
+        <CustomerFeedback lang={lang} />
 
         {/* Dynamic Contact and consultation booking block */}
         <ContactSection 
