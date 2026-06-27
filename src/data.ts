@@ -9,7 +9,7 @@ export const personalInfo = {
   subTitleAr: "اعتماد ®TOGAF العالمي | خبرة تتجاوز 20 عاماً في قطاع المؤسسات",
   contactNo: "+966559685737",
   email: "Mattara@gmail.com",
-  linkedIn: "AMattar",
+  linkedIn: "almutaz-mattar-a8358780",
   locationEn: "Al Ahsa, Eastern Region, Saudi Arabia",
   locationAr: "الأحساء، المنطقة الشرقية، المملكة العربية السعودية",
   aboutEn: "IT Infrastructure and Cybersecurity Manager with over 20 years of experience leading enterprise network operations, secure infrastructure, cybersecurity controls, and mission-critical systems in governments and international organizations. Specialist in robust service availability, business continuity, and risk mitigation.",

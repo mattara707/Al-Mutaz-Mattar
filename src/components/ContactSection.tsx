@@ -270,13 +270,13 @@ export default function ContactSection({ lang, estimatedText }: ContactSectionPr
                 </a>
 
                 {/* LinkedIn Professional profiling */}
-                <a href="https://linkedin.com/in/AMattar" target="_blank" rel="noreferrer" className="flex items-center gap-4 bg-blue-950/70 p-3.5 rounded-xl border border-blue-900/30 hover:border-blue-800 transition-colors cursor-pointer min-h-[64px]">
+                <a href="https://www.linkedin.com/in/almutaz-mattar-a8358780" target="_blank" rel="noreferrer" className="flex items-center gap-4 bg-blue-950/70 p-3.5 rounded-xl border border-blue-900/30 hover:border-blue-800 transition-colors cursor-pointer min-h-[64px]">
                   <div className="p-2.5 bg-blue-500/10 text-blue-300 rounded-lg shrink-0">
                     <Linkedin className="w-5 h-5" />
                   </div>
                   <div>
                     <span className="text-[10px] text-blue-200 uppercase tracking-widest block font-bold">{lang === 'en' ? 'LinkedIn Identity' : 'الملف المهني لينكد إن'}</span>
-                    <span className="font-mono text-blue-350 text-sm block mt-0.5 hover:underline">LinkedIn: AMattar</span>
+                    <span className="font-mono text-blue-350 text-sm block mt-0.5 hover:underline">LinkedIn: almutaz-mattar</span>
                   </div>
                 </a>
 
